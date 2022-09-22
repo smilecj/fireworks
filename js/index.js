@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||祝|あ|な|た|生|日|快|乐|by|狐狸|#rectangle|');
+      S.UI.simulate('|#countdown 3||祝|あ|な|た|生|日|快|乐|by|狐|狸|#rectangle|');
     }
 
     S.Drawing.loop(function () {
