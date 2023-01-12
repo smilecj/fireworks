@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3|祝|次元数字|2023|新|年|快|乐|by|程吉夫|#rectangle|');
+      S.UI.simulate('|#countdown 3||祝|次元数字|2023|新|年|快|乐|by|程吉夫|#rectangle|');
     }
 
     S.Drawing.loop(function () {
